@@ -1,0 +1,16 @@
+@charset "UTF-08";
+
+body{
+    background-color: lightsteelblue;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: darkblue;
+}
+h2{
+    color: darkred;
+}
+p{
+    text-align: justify;
+} 

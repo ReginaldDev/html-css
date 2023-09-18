@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        h1{ /*Box-level */
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border: 10px solid darkslategray;
+            padding: 10px 20px;
+            margin: 10px auto 20px auto; 
+            
+
+        }
+        a{ /*Inline-level */
+            border-color: red;
+            border-width: 10px;
+            border-style: solid;
+            padding: 10px 10px 10px 10px;
+        }
+        div{
+            width:500px!important;
+            border: 5px solid black;
+            padding-top: 10px;
+            padding-right:10px;
+            padding-bottom: 5px;
+            margin-left:50px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa Box-level</h1>
+    <p>parágrafos também são exemploes de box-level mas, os <a href="">links são exemplos de inline-level </a> Vamos ver como tudo isso funciona.</p>  
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dolore commodi facilis provident atque quasi dignissimos et odit! Voluptatum fuga laborum qui esse ipsum enim provident iste nulla dolores? Libero.
+    </div> 
+</body>
+</html>

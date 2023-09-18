@@ -1,0 +1,18 @@
+body{
+        background-color: grey;
+    }
+    h1{
+        font-family: Arial;
+        font-size: larger;
+        color: blue;
+    }
+    h2{
+        font-family: Arial;
+        font-size: medium;
+        color: red;
+    }
+    button{
+        color: rgb(233, 24, 24);
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    }
